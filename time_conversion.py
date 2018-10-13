@@ -1,6 +1,7 @@
 print("Enter time as hh:mm:ssAM/PM")
 s=str(input())
 s1=""
+t=0
 if s[8]=="A":
     if s[0]=="1" and s[1]=="2":
         s1="00"+s[2:8]
